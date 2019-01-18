@@ -104,7 +104,7 @@ post "/admin" do
      comment: params[:comment]
  )
 
- session[:user_id]= post.id
+
 
  redirect "/blog"
 
