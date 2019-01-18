@@ -1,0 +1,13 @@
+<h2>Top Picks</h2>
+
+<ul>
+
+<%@cars.each do |car|%>
+<img src="<%=car.image%>" width="400px" height="250px">
+<li><%=car.make%></li>
+<li><%=car.model%></li>
+<li><%=car.year%></li>
+
+<%end%>
+
+</ul>
